@@ -1,0 +1,55 @@
+# GateMaster Project History & Reference Document
+
+## Project Overview
+Goal: Create an automated gate management system for apartments and houses using FASTag (RFID) technology.
+
+---
+
+## 1. Initial Request & Requirements
+**User Prompt:** Create an app that makes the gates of apartments or houses automated.
+**Requirements Identified:**
+- Use FASTag (UHF RFID) technology to repurpose existing vehicle tags.
+- Dashboard for monitoring logs and managing authorized vehicles.
+- Hardware documentation and cost analysis.
+- Live simulation of gate movements (Opening, Open, Closing, Closed).
+
+---
+
+## 2. Technical Specification
+**Backend (Python/FastAPI):**
+- Background thread for Serial communication with UHF RFID Readers.
+- GPIO control for triggering physical relays (Raspberry Pi compatible).
+- Local JSON database (`gate_data.json`) for vehicle registration and logs.
+- REST API for frontend communication.
+
+**Frontend (React/TypeScript):**
+- Dashboard with real-time statistics (Traffic intensity, health status).
+- Simulation tool for testing entry/exit scans manually.
+- Vehicle Registry for adding/removing authorized FASTags.
+- Professional Project Report view optimized for PDF generation/printing.
+
+---
+
+## 3. Revised Production Cost Breakdown (V2)
+| Category | Component | Est. Cost (INR) | Purpose |
+|----------|-----------|-----------------|---------|
+| Reader | UHF Long Range Reader | ₹7,500 | Vehicle detection |
+| Controller | Raspberry Pi 4 | ₹5,200 | Edge Logic |
+| Gate | Automatic Boom Barrier | ₹16,500 | Mechanical Closure |
+| **Safety** | IR Safety Photocells | ₹1,800 | Pedestrian Safety |
+| **Power** | 1KVA Online UPS | ₹4,500 | Backup & Cleaning |
+| **Network** | Outdoor Router/AP | ₹2,500 | Remote Management |
+| **Protect** | Surge Protector (SPD) | ₹1,200 | Lightning Safety |
+| **Civil** | Foundation & Conduits | ₹3,200 | Physical Stability |
+| **Total** | | **₹42,400** | **Ready for Client** |
+
+---
+
+## 4. Production Security & Safety Recommendations
+- **Fail-Safe Relay:** Ensure the relay pulse is short (1s) to prevent burning out the gate controller.
+- **Safety Photocells:** Mandatory for residential areas to detect non-metallic objects (kids, cycles).
+- **Online UPS:** High-quality power prevents the Raspberry Pi from corrupting its SD card during power cycles.
+- **Surge Protection:** Essential for hardware longevity in tropical climates with thunderstorms.
+
+---
+*Reference document generated for GateMaster Project v1.0.5*

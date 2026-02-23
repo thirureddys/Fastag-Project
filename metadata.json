@@ -1,0 +1,7 @@
+{
+  "name": "GateMaster FASTag Automation",
+  "description": "An automated gate management system simulation using FASTag RFID technology for residential and apartment complexes.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}

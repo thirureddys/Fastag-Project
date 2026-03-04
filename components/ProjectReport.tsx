@@ -117,6 +117,99 @@ const ProjectReport: React.FC = () => {
           </div>
         </section>
 
+        {/* Market Analysis Section */}
+        <section className="space-y-8">
+          <div className="flex justify-between items-end mb-6">
+            <h2 className="text-2xl font-black flex items-center gap-3">
+              <span className="w-8 h-8 bg-indigo-100 text-indigo-600 rounded-full flex items-center justify-center text-sm font-bold">02</span>
+              Commercial Strategy: Tier 2 Cities
+            </h2>
+            <span className="text-xs font-bold text-emerald-600 bg-emerald-50 px-3 py-1 rounded-full italic">High Growth Potential</span>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div className="bg-slate-50 p-6 rounded-2xl border border-slate-200">
+              <h4 className="font-black text-indigo-900 mb-4 flex items-center gap-2">
+                <i className="fas fa-map-marker-alt"></i> Target: Kurnool & Nandyal
+              </h4>
+              <ul className="space-y-3 text-sm text-slate-600">
+                <li className="flex gap-2">
+                  <i className="fas fa-arrow-right text-indigo-400 mt-1"></i>
+                  <span><strong>Rising Gated Communities:</strong> Rapid urbanization in these cities is leading to 100-150 unit apartments replacing independent houses.</span>
+                </li>
+                <li className="flex gap-2">
+                  <i className="fas fa-arrow-right text-indigo-400 mt-1"></i>
+                  <span><strong>Security Guard Shortage:</strong> Reliable security personnel are becoming expensive and hard to retain in Tier 2 markets.</span>
+                </li>
+                <li className="flex gap-2">
+                  <i className="fas fa-arrow-right text-indigo-400 mt-1"></i>
+                  <span><strong>FASTag Ubiquity:</strong> Since 2021, almost every car owner has a FASTag. The "Key" is already on the windshield.</span>
+                </li>
+              </ul>
+            </div>
+
+            <div className="bg-slate-50 p-6 rounded-2xl border border-slate-200">
+              <h4 className="font-black text-indigo-900 mb-4 flex items-center gap-2">
+                <i className="fas fa-wallet"></i> ₹5 Lakh Investment Roadmap
+              </h4>
+              <div className="space-y-4">
+                <div className="flex justify-between items-center text-xs">
+                  <span className="font-bold">Hardware R&D (5 Beta Kits)</span>
+                  <span className="bg-indigo-100 text-indigo-700 px-2 py-0.5 rounded font-bold">₹1.5L</span>
+                </div>
+                <div className="w-full bg-slate-200 h-1.5 rounded-full overflow-hidden">
+                  <div className="bg-indigo-600 h-full w-[30%]"></div>
+                </div>
+
+                <div className="flex justify-between items-center text-xs">
+                  <span className="font-bold">Marketing & B2B Sales</span>
+                  <span className="bg-indigo-100 text-indigo-700 px-2 py-0.5 rounded font-bold">₹1.0L</span>
+                </div>
+                <div className="w-full bg-slate-200 h-1.5 rounded-full overflow-hidden">
+                  <div className="bg-indigo-600 h-full w-[20%]"></div>
+                </div>
+
+                <div className="flex justify-between items-center text-xs">
+                  <span className="font-bold">Operations & Local Support</span>
+                  <span className="bg-indigo-100 text-indigo-700 px-2 py-0.5 rounded font-bold">₹1.5L</span>
+                </div>
+                <div className="w-full bg-slate-200 h-1.5 rounded-full overflow-hidden">
+                  <div className="bg-indigo-600 h-full w-[30%]"></div>
+                </div>
+
+                <div className="flex justify-between items-center text-xs">
+                  <span className="font-bold">Cloud Infrastructure & Buffer</span>
+                  <span className="bg-indigo-100 text-indigo-700 px-2 py-0.5 rounded font-bold">₹1.0L</span>
+                </div>
+                <div className="w-full bg-slate-200 h-1.5 rounded-full overflow-hidden">
+                  <div className="bg-indigo-600 h-full w-[20%]"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="bg-indigo-50 border border-indigo-100 p-8 rounded-2xl">
+            <h4 className="font-black text-indigo-900 mb-4">The "Commercial Success" Formula</h4>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
+              <div className="p-4">
+                <p className="text-2xl font-black text-indigo-600">₹65,000</p>
+                <p className="text-xs font-bold text-slate-500 uppercase tracking-widest mt-1">Selling Price / Gate</p>
+              </div>
+              <div className="p-4 border-x border-indigo-100">
+                <p className="text-2xl font-black text-indigo-600">₹22,600</p>
+                <p className="text-xs font-bold text-slate-500 uppercase tracking-widest mt-1">Profit Margin / Unit</p>
+              </div>
+              <div className="p-4">
+                <p className="text-2xl font-black text-indigo-600">₹1,500</p>
+                <p className="text-xs font-bold text-slate-500 uppercase tracking-widest mt-1">Monthly AMC Revenue</p>
+              </div>
+            </div>
+            <p className="text-xs text-indigo-700 mt-6 italic text-center">
+              *AMC (Annual Maintenance Contract) creates recurring revenue, making the business sustainable after the first 10 installations.
+            </p>
+          </div>
+        </section>
+
         {/* Benefits Section */}
         <section className="bg-slate-50 p-8 rounded-2xl border">
           <h3 className="text-xl font-bold mb-4">Why these extras are mandatory:</h3>
